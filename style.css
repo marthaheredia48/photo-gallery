@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  background-color: floralwhite;
+  display: flex;
+  flex-direction: column; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  font-family: LXGW WenKai TC;
+  font-size: 50px;
+  color: white;
+  background-color: lightpink;
+  margin: 0; 
+  margin-bottom: 10px;
+  padding: 40px;
+  width: 100%;
+}
+
+.containerA, .containerB, .containerC {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%; 
+}
+
+.uniform-size {
+  width: 300px;
+  height: 300px;
+  border-color: lightpink;
+  border-style: dashed;
+  border-width: 3px;
+  margin: 10px; 
+  padding: 0;
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+}
