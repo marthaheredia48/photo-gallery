@@ -19,3 +19,4 @@ This is a simple photo gallery project created using HTML and CSS, with a focus 
 
 In this project, I enhanced my skills in using Flexbox for responsive design, focusing on how to arrange and style images in a visually appealing gallery. Additionally, I explored how to integrate custom fonts for a more personalized touch in web development.
 
+https://marthaheredia48.github.io/photo-gallery/
